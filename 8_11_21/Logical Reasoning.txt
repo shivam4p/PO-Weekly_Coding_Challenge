@@ -1,0 +1,2 @@
+Statement I would only be valid if you know what month it is and also if it happens to be a leap year to account for the extra day in February. If you know the month then you can count back in days till you reach 14th to get the day of the week since you know the starting day of the week.
+Statement II is sufficient enough to answer the question because no matter the month, the 3rd saturday is the 17th, so the 14th would always be on a Wednesday.
