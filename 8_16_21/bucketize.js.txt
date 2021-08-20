@@ -1,6 +1,6 @@
 function bucketize(s, n) {
   let word = s.split(" ");
-  let last = words[0];
+  let last = word[0];
   let answer = [];
   if (s.length < n) {
     return answer;
@@ -12,7 +12,7 @@ function bucketize(s, n) {
         last = temp;
       } else {
         answer.push(last);
-        last = words[i];
+        last = word[i];
       }
 
       if (i === word.length - 1) {
