@@ -1,0 +1,8 @@
+From 8:00PM Thursday to 12:00AM Friday is 4 hours.
+From 12:00AM Friday to 12:00AM Monday is 72 hours.
+From 12:00AM Monday to 8:00AM Monday is 8 hours.
+A total of 84 hours passes in which we know that that watch was 5 minutes fast on thursday and 7 minuted slow on monday, so 12 minutes was lost.
+In order to correct the timne, the watch needs to lose 5 minutes.
+So, 5/12*84 = 35hours. 
+35 hours past 8:00PM Thursday results in 7:00AM Saturday.
+Answer is a)7 a.m. Saturday

@@ -1,0 +1,47 @@
+function additivePersistence(n) {
+	let input = n.toString();
+	let additiveCount = 0;
+	let currentSum = 0;
+
+	if (n < 10) {
+		return "The additive persistence is 0.";
+	} else {
+		while (input.length != 1) {
+      		currentSum = 0;
+			for (let i = 0; i < input.length; i++) {
+				currentSum += Number(input.charAt(i));
+
+			}
+		input = currentSum.toString();
+		additiveCount++;
+		}
+		return "The single digit sum is " + currentSum + ", and the additive persistence is " + additiveCount+".";
+	}
+
+}
+
+
+function multiplicativePersistence(n) {
+	let input = n.toString();
+	let multiplicativeCount = 0;
+	let currentProduct = 1;
+
+	if (n < 10) {
+		return "The multiplicative persistence is 0.";
+	} else {
+		while (input.length != 1) {
+     		currentProduct = 1;
+			for (let i = 0; i < input.length; i++) {
+				currentProduct *= Number(input.charAt(i));
+
+			}
+		input = currentProduct.toString();
+		multiplicativeCount++;
+		}
+		return "The single digit product is " + currentProduct + ", and the multiplicative persistence is " + multiplicativeCount+".";
+	}
+
+}
+
+console.log(additivePersistence(123456));
+console.log(multiplicativePersistence(123456));
